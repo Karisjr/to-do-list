@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+    background: linear-gradient(90deg, rgb(230, 107, 221), rgb(230, 194, 225));
+    font: Arial;
+}
+
+h1 {
+    text-align: left;
+    font-family: fantasy thin; 
+    letter-spacing: 5px;
+}
+
+.title {
+    background-color: transparent;
+    width: 700px;
+    height: 125px;
+    padding: 1px;
+    margin: auto;
+    margin-top: 100px;
+    float: inline-start;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 90px;
+    color: white;
+    ;
+}
+
+.navigation-bar {
+    background-color: transparent;
+    width: 700px;
+    height: 100px;
+    padding: 1px;
+    margin: auto;
+    margin-top: 25px;
+    float: inline-start;
+    display: flex;
+    direction: row;
+    font-family: fantasy;
+    color: white;
+}
+
+.navigation-bar a {
+    margin: auto;
+    font-size: 25px;
+    border-radius: 25px;
+    width: 150px;
+    color: white;
+    text-align: center;
+}
+
+.navigation-bar a:hover {
+    background-color: #ec8eda;
+    border: 1px solid white;
+}
+
+.to-do {
+    background-color: white;
+    opacity: 65%;
+    width: 700px;
+    height: 700px;
+    padding: 1px;
+    margin: auto;
+    border-radius: 15%;
+    /* overflow? */ 
+}
+
+.outstanding {
+    width: 600px;
+    height: 320px;
+    color: #ec8eda;
+    position: relative;
+    left: 35px;
+    background-color: transparent;
+}
+
+.complete {
+    width: 600px;
+    height: 320px;
+    color: #ec8eda;
+    position: relative;
+    bottom: 12px;
+    left: 35px;
+    background-color: transparent;
+}
+
+.add-item {
+    width: 690px;
+    height: 100px;
+    position: relative;
+    bottom: -3px;
+    left: 20px;
+}
+
+.text {
+    width: 90%;
+    height: 45%;
+    font-style: italic;
+    font: Arial;
+}
+
+.divider {
+    width: 700px;
+    height: 20px;
+    position: relative;
+    bottom: -5px;
+    text-align: center;
+    letter-spacing: 30px;
+    background: rgb(227, 113, 219);
+    opacity: 35%;
+}
+
+.my-button-style {
+    padding: 5px;
+}
+
+@keyframes colchange {
+    0% {
+        color: white;
+        opacity: 65%;
+    }
+    100% {
+        color: #ec8eda;
+    }
+}
+
+.my-fancy-header {
+    background-color: transparent;
+    animation-name: colchange;
+    animation-duration: 3s;
+}
+
